@@ -1,0 +1,15 @@
+{
+  "name": "logging_proxy",
+  "version": "1.0.0",
+  "description": "A nodejs proxy which logs requests metadata in a postgres table",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "node-http-mitm-proxy":"https://github.com/joeferner/node-http-mitm-proxy.git",
+    "pg": "^4.4.3"
+  }
+}

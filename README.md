@@ -16,4 +16,3 @@ The program was tested using Postgres 9.5 (beta 1) and Firefox on Mac OS. There 
 It supports websockets (ws://).
 
 The table *visits* will contain the visited URL, the host, the headers as a json object and the timestamp of the request.
-# node-logging-proxy
